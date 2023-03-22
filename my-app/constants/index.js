@@ -1,2 +1,23 @@
-export const abi ="hardhat-tutorial/artifacts/contracts/CryptoDevs.sol"
-export const NFT_CONTRACT_ADDRESS = "0x635D4017d5965cca01F46cd1eFe36E2E5cB6DD95"
+export const abi = [
+  {
+    inputs: [
+      {
+        internalType: "address",
+        name: "",
+        type: "address",
+      },
+    ],
+    name: "whitelistedAddresses",
+    outputs: [
+      {
+        internalType: "bool",
+        name: "",
+        type: "bool",
+      },
+    ],
+    stateMutability: "view",
+    type: "function",
+  },
+];
+export const NFT_CONTRACT_ADDRESS =
+  "0x619f6978f5F2315Ef5703C77Ab303E92c8b08e3f";
